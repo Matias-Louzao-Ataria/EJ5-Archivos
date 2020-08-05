@@ -50,7 +50,7 @@ public class Clase extends JFrame implements ActionListener {
                     } else {
                         label.setText("Error");
                         JOptionPane.showMessageDialog(null,
-                                "Error en el archivo,el archivo contiene errores de formato!");
+                                "Error en el archivo, el archivo contiene errores de formato!");
                     }
                 } catch (IOException | SecurityException e) {
                     JOptionPane.showMessageDialog(null, "Error de acceso al archivo");
